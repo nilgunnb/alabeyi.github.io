@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+   padding: 10px 10px;
+}
+
+section{
+    overflow: hidden;
+}
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@font-face {
+    font-family: MediumFONT;
+    src: url('../fonts/static/Platypi-Medium.ttf');
+}
+
+@font-face {
+    font-family: RegularFONT;
+    src: url('../fonts/static/Platypi-Regular.ttf');
+}
+
+@font-face {
+    font-family: LightFONT;
+    src: url('../fonts/static/Platypi-Light.ttf');
+}
